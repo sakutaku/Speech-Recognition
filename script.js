@@ -41,7 +41,7 @@ function speechToText() {
                     interim.classList.add("interim");
                     result.appendChild(interim);
                 }
-                document.querySelector("interim").innerHTML = " " + speechResult;
+                document.querySelector(".interim").innerHTML = " " + speechResult;
             }
             downloadBtn.disabled = false;
         }
