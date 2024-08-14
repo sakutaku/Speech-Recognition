@@ -50,7 +50,7 @@ function speechToText() {
             speechToText();
         }
         recognition.onerror = (event) => {
-            alert("Error Occured: " + event.error);
+            console.log(event.error);
         }
     } catch (error) {
         recording = false;
