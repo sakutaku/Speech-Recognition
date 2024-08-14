@@ -101,3 +101,24 @@ body {
   .container .record.recording ion-icon {
     display: none;
   }
+
+  .container .result {
+    width: 100%;
+    min-height: 200px;
+    padding: 10px;
+    border: 1px solid var(--light-text-color);
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: var(--text-color);
+  }
+  .container .result p {
+    display: inline;
+    margin-left: 3px;
+    color: var(--light-text-color);
+  }
+  .buttons {
+    display: flex;
+    gap: 20px;
+  }
